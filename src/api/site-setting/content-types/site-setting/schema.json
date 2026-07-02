@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings",
+    "description": "Global site settings: contact, hours, socials and action links"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": { "type": "string" },
+    "address": { "type": "text" },
+    "orderUrl": { "type": "string" },
+    "reserveUrl": { "type": "string" },
+    "facebook": { "type": "string" },
+    "instagram": { "type": "string" },
+    "tiktok": { "type": "string" },
+    "openingHours": {
+      "type": "component",
+      "repeatable": true,
+      "component": "schedule.day-hours"
+    }
+  }
+}

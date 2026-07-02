@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promotions",
+  "info": {
+    "singularName": "promotion",
+    "pluralName": "promotions",
+    "displayName": "Promotion",
+    "description": "Promotional cards/banners shown on the site"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "body": { "type": "richtext" },
+    "image": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "active": { "type": "boolean", "default": true },
+    "startDate": { "type": "date" },
+    "endDate": { "type": "date" },
+    "rank": { "type": "integer" }
+  }
+}

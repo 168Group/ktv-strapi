@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "Room",
+    "description": "Karaoke rooms with capacity and hourly pricing"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": {},
+  "attributes": {
+    "name": { "type": "string", "required": true },
+    "chinese": { "type": "string" },
+    "capacity": { "type": "integer" },
+    "pricePerHour": { "type": "integer" },
+    "roomNumbers": { "type": "json" },
+    "rank": { "type": "integer" },
+    "photo": { "type": "media", "multiple": false, "allowedTypes": ["images"] }
+  }
+}
