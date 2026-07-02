@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": "Editable content for the landing page"
+  },
+  "options": { "draftAndPublish": false },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": { "type": "string" },
+    "heroSubtitle": { "type": "text" },
+    "heroBottomText": { "type": "string" },
+    "heroImage": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "partyHeading": { "type": "string" },
+    "partyCtaText": { "type": "string" },
+    "partyImage": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "equipmentHeading": { "type": "string" },
+    "equipmentSubheading": { "type": "string" },
+    "equipmentImage": { "type": "media", "multiple": false, "allowedTypes": ["images"] }
+  }
+}

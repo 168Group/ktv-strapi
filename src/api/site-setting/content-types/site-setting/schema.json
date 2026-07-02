@@ -11,9 +11,13 @@
   "pluginOptions": {},
   "attributes": {
     "phone": { "type": "string" },
+    "email": { "type": "string" },
     "address": { "type": "text" },
+    "googleMapsUrl": { "type": "string" },
+    "mapImage": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
     "orderUrl": { "type": "string" },
     "reserveUrl": { "type": "string" },
+    "roomsPolicy": { "type": "text" },
     "facebook": { "type": "string" },
     "instagram": { "type": "string" },
     "tiktok": { "type": "string" },
